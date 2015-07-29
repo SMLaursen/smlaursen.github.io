@@ -1,0 +1,49 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            Sune Mølgaard Laursen
+tagline:          
+description:      'Personal Website'
+url:              http://smlaursen.github.io/
+baseurl:          /
+email:		      Sune1987@gmail.com
+github_username:      SMLaursen
+linkedin_username:    SuneLaursen
+
+author:
+  name:           Sune Mølgaard Laursen
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+#Scholar
+scholar:
+  style: apa
+  locale: en
+
+  sort_by: none
+  order: ascending
+
+  source: ./_bibliography
+  bibliography: references.bib
+  bibliography_template: "{{reference}}"
+
+  replace_strings: true
+  join_strings:    true
+
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   Details
+
+  query: "@*"
+
+github:
+  repo:           https://github.com/SMLaursen
